@@ -8,15 +8,17 @@
  *
  * Here's a sample configuration of the component:
  *
+ * <pre>
  * 		'redis'=>array(
- * 			'class'=>'ext.APredisConnection',
+ * 			'class'=>'ext.YiiRedis.APredisConnection',
  * 			'predisLibPath'=>'application.vendors.predis-0-8-3.lib.Predis',
  * 			'connectionParameters'=>array(
  * 				'database'=>0,
- * 				'host'=>'extcache1.servers.9squared.com',
+ * 				'host'=>'localhost',
  * 				'port'=>6379,
  * 			),
  * 		),
+ * </pre>
  *
  *
  * @author Konstantinos Filios <konfilios@gmail.com>
